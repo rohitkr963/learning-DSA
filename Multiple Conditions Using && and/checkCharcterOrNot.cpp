@@ -4,20 +4,20 @@ using namespace std;
 int main()
 {
     char ch;
-    cout<<"enter a charcter";
+    cout<<"enter a alphabet";
     cin>>ch;
 
     if(ch>='A' && ch<='Z')
     {
-        cout<<"this is charcter";
+        cout<<"this is alphabet";
     }
     else if(ch>='a' && ch<='z')
     {
-        cout<<"this is charcter";
+        cout<<"this is alphabet";
     }
     else
     {
-        cout<<"this is not charcter";
+        cout<<"this is not alphabet";
     }
 
     return 0;
