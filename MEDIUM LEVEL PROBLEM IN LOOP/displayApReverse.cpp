@@ -3,12 +3,12 @@ using namespace std;
 
 int main()
 {
-    int i,a=1,d=3;
-    int n;
-    cout<<"enter "
-    for ( i = ; i < count; i++)
+    int i,a=1,d=3,an;
+    for( i=34; i>=a; i--)
     {
-        /* code */
+       
+        an=a+(i-1)*d;
+        cout<<an<<",";
     }
     
 }
