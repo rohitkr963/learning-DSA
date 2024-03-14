@@ -9,3 +9,6 @@ int main() {
     }
     return 0;
 }
+
+
+// it print intfinite because the condition is not true
