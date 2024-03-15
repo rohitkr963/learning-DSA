@@ -9,8 +9,8 @@ int main()
 
     while(num!=0)    
     {
-        if
-        sum+=num%10;
+        
+        sum=sum+num%10;
         num=num/10;
         cout<<sum<<",";
         
