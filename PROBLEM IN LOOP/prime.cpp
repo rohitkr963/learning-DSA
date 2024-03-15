@@ -12,7 +12,7 @@ int main()
     {
         if(n%i==0){
             flag = false;
-            break;
+            break; 
         }
     }
     if(n==1) cout<<"neither composite nor prime";
