@@ -10,4 +10,6 @@ int main(){
     b=c;
     cout<<"print the value of  a = "<<a<<endl;
     cout<<"print the value of b = "<<b<<endl;
+
+    return 0;
 }
