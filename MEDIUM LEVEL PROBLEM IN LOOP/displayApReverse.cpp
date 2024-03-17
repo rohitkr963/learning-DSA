@@ -1,14 +1,16 @@
 #include<iostream>
-using namespace std; 
+using namespace std;
+int main(){
+    int i,n;
+    
+     cout<<"enter the value of n = ";
+    cin>>n;
 
-int main()
-{
-    int i,a=1,d=3,an;
-    for( i=34; i>=a; i--)
-    {
-       
-        an=a+(i-1)*d;
-        cout<<an<<",";
+    for(i=100; i>=n; i--){
+        cout<<i;
+        cout<<", ";
+       i = i-2;
+
     }
     
 }
