@@ -1,13 +1,13 @@
 #include<iostream>
 using namespace std;
-int count;
+int count=0;
 
-int rohit(int number)
+int rohit(int n)
 {
-    return number*number;
+    return n*n;
 }
 int main(){
-    int number,count=0;
+    int number;
     cout<<"enter the value of n = ";
     cin>>number;
 
@@ -17,7 +17,7 @@ int main(){
             count++;
         }
                 cout<<"this number is  "<<count<<endl;
-         int r=   rohit(number);
-         cout<<"print the spuare = "<<r<<endl;
+          int result =rohit(count);
+         cout<<"print the spuare = "<<result<<endl;
 
     }
