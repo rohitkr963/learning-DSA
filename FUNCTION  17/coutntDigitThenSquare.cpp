@@ -17,7 +17,7 @@ int main(){
             count++;
         }
                 cout<<"this number is  "<<count<<endl;
-          int result =rohit(count);
+          int result = rohit(count);
          cout<<"print the spuare = "<<result<<endl;
 
     }
