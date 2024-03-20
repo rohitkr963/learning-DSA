@@ -8,7 +8,7 @@ int main()
    cout<<"Enter Number to find Absolute Value = ";
     cin>>num;
 
-    int abNum = -(num);
+    int abNum = abs(num);
 
    cout<<"Actual Number   = "<<num<<endl; 
    cout<<"Absolute Number = " <<abNum;
