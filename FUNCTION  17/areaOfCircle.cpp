@@ -1,18 +1,18 @@
 #include<iostream>
 using namespace std;
 
-int area(int r)
+float area(float r)
 {
     return 3.14*r*r;
 }
 
 int main()
 {
-    int r;
+    float k;
     cout<<"enter redius";
-    cin>>r;
+    cin>>k;
 
-   int result = area(r);
+   float result = area(k);
     cout<<result;
 
     return 0;
