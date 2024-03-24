@@ -4,7 +4,8 @@ int main(){
     int num;
     cout<<"enter the positive number";
     cin>>num;
-
+if(num>0)
+{
     if(num%5==0){
         cout<<"this number is divisible by five";
 
@@ -12,4 +13,6 @@ int main(){
     else{
         cout<<"this number is not divisible by five";
     }
+}
+return 0;
 }
