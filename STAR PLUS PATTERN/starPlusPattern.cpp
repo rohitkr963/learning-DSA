@@ -11,7 +11,7 @@ int main() {
    {
     for(j=1; j<=n; j++)
     {
-        if(i==mid||j==mid)
+        if(j==mid)
         {
             cout<<"*";
         }
