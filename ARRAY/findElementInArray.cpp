@@ -10,7 +10,7 @@ int main() {
     cin>>n;
 
  
-    for(i=0; i<n; i++)
+    for(i=0; i<5; i++)
     {
         if(arr[i]==n)
         {
