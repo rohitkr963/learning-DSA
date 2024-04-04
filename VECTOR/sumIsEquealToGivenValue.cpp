@@ -13,7 +13,7 @@ int main()
      {
         for(int j=i+1; j<6; j++)
         {
-        if(arr[i]+arr[j]==totalnumber)
+           if(arr[i]+arr[j]==totalnumber)
         {
             pairs++;
         }
