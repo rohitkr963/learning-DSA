@@ -1,17 +1,23 @@
 #include<iostream>
+#include<vector>
 using namespace std;
 
 int main()
 {
-    int arr[6]={1,2,3,4,5,6};
-    int n;
-    int count=0;
-    cout<<"enter a number";
-    cin>>n;
-
+    vector<int> v(6);
+    
     for(int i=0; i<6; i++)
     {
-        if(arr[i]>n)
+        cin>>v[i];
+    }
+
+    int x;
+    cout<<"enter a number";
+    cin>>x;
+    int count = 0;
+    for(int i=0; i<6; i++)
+    {
+        if(v[i]>x)
         {
             count++;
         }
