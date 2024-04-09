@@ -9,7 +9,7 @@ int main()
     
     for (i = 1; i <= n; i++)
     {
-        if (n % i == 0)
+        if (n % i == 0) 
         {
            count++;
         }
@@ -22,5 +22,5 @@ int main()
     {
          cout << "it is not a Prime number" << endl; 
     }
-    return 0;    
+    return 0;
 }
