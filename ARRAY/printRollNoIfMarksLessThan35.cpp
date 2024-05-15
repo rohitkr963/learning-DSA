@@ -10,6 +10,6 @@ int main() {
             cout<<i<<endl;
         }
     }
-    //cout<<marks[i];
+    
     return 0;
 }
