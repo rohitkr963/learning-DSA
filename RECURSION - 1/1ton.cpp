@@ -1,16 +1,13 @@
 #include<iostream>
 using namespace std;
 
-void fun(int n){
-    if(n==0) return;
-    
-    fun(n-1);
-    cout<<n<<endl;
+void fun(int i, int n){
+    if (i>n) return;
+    cout<<i<<endl;
+    fun(i+1,n);
 }
 
 int main(){
-    int p;
-    cout<<"enter a number";
-    cin>>p;
-    fun(p);
+    
+    fun(1,9);
 }
